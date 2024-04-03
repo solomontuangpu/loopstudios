@@ -3,9 +3,11 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
-      lg: { max: "960px" },
-      md: { max: "680px" },
-      sm: { max: "375px" },
+      xl: { max: "1200px"},
+      lg: { max: "1080px" },
+      md: { max: "960px" },
+      sm: {max: "680px"},
+      xsm: { max: "580px" },
     },
     colors: {
       white: "hsl(0, 0%, 100%)",

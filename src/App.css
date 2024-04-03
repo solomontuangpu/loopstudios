@@ -1,4 +1,12 @@
 .hero {
     background-image: url("./assets/images/desktop/image-hero.jpg");
     background-size: cover;
+    background-position:  center;
+}
+
+@media screen and (max-width:680px) {
+    .hero {
+        background-image: url("./assets/images/mobile/image-hero.jpg");
+        background-size:100%;
+    }
 }

@@ -1,5 +1,3 @@
-import React from "react";
-
 import Logo from "./../assets/images/logo.svg";
 import FacebookIcon from "./../assets/images/icon-facebook.svg";
 import InstagramIcon from "./../assets/images/icon-instagram.svg";
@@ -10,10 +8,10 @@ const Footer = () => {
   return (
     <section className='max-w-full bg-black py-20 mt-44'>
       <footer className='max-w-[1440px] mx-auto'>
-        <main className=' mx-16 flex justify-between items-center'>
-          <article className='space-y-3'>
+        <main className=' mx-16 flex justify-between items-center md:mx-6 md:flex-col md:text-center'>
+          <article className='space-y-3 md:space-y-10'>
             <img src={Logo} />
-            <ul className='text-white flex space-x-6'>
+            <ul className='text-white flex space-x-6 md:flex-col md:space-y-6'>
               <li>About</li>
               <li>Careers</li>
               <li>Events</li>
@@ -21,8 +19,8 @@ const Footer = () => {
               <li>Support</li>
             </ul>
           </article>
-          <article className='space-y-4'>
-            <div className=' flex space-x-3'>
+          <article className='space-y-4 md:mt-8'>
+            <div className=' flex justify-end space-x-4 md:justify-center'>
               <img src={FacebookIcon} alt='facebook icon' />
               <img src={TwitterIcon} alt='twitter icon' />
               <img src={PinterestIcon} alt='pinterest icon' />
