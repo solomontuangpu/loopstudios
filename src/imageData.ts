@@ -1,8 +1,10 @@
+import DeepEarth from "./assets/images/desktop/image-deep-earth.jpg";
+
 
 export const DESKTOP_IMG = [
   {
     id: 1,
-    imgPath: "/src/assets/images/desktop/image-deep-earth.jpg",
+    imgPath: DeepEarth,
     titleTop: "deep",
     titleBot: "earth",
   },
